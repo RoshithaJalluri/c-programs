@@ -140,3 +140,74 @@ int main()
     return 0;
 }
 
+#COPY OF ONE ARRAY TO ANOTHER
+#include<stdio.h>
+int main()
+{
+    int a[10],b[10],n,i;
+    printf("Enter size: ");
+    scanf("%d",&n);
+    printf("Enter the elements: ");
+    for(i=0;i<n;++i)
+    {
+     scanf("%d",&a[i]);   
+    }
+    for(i=0;i<n;++i)
+    {
+        b[i]=a[i];
+    }
+     for(i=0;i<n;++i)
+     {
+         printf("\n%d",b[i]);
+     }
+     return 0;
+}
+
+#SUM OF EVEN NOS OF ARRAY
+
+#include<stdio.h>
+int main()
+{
+    int a[10],n,i,sum=0;
+    printf("Enter size: ");
+    scanf("%d",&n);
+    printf("Enter the elements: ");
+    for(i=0;i<n;++i)
+    {
+     scanf("%d",&a[i]);   
+    }
+    for(i=0;i<n;++i)
+    {
+        if(a[i]%2==0)
+        {
+            sum=sum+a[i];
+        }
+    }
+         printf("\n the sum of elements of array %d",sum);
+     return 0;
+}
+
+#REVERSE OF ELEMENTS IN ARRAY
+
+#include<stdio.h>
+int main()
+{
+    int a[10],n,i,rev;
+    printf("Enter size: ");
+    scanf("%d",&n);
+    printf("Enter the elements: ");
+    for(i=0;i<n;++i)
+    {
+     scanf("%d",&a[i]);   
+    }
+    for(i=n-1;i>0;--i)
+    {
+       printf("\n%d",a[i]);
+    }  
+     return 0;
+}
+
+#SEPARATE EVEN AND ODD NOS IN 2 SEPARATE ARRAYS
+
+
+
