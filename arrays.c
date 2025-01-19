@@ -208,6 +208,7 @@ int main()
 }
 
 #SEPARATE EVEN AND ODD NOS IN 2 SEPARATE ARRAYS
+#include<stdio.h>
 int main()
 {
     int a[10],b[10],c[10],n,i,j,k;
